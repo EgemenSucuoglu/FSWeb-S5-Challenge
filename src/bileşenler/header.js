@@ -17,14 +17,14 @@ const Header = (baslik, tarih, yazi) => {
 
   const dateOlustur = document.createElement("span");
   dateOlustur.classList.add("date");
-  dateOlustur.textContent = "tarih";
+  dateOlustur.textContent = tarih;
 
   const baslikOlustur = document.createElement("h1");
-  baslikOlustur.textContent = "baslik";
+  baslikOlustur.textContent = baslik;
 
   const tempOlustur = document.createElement("span");
   tempOlustur.classList.add("temp");
-  tempOlustur.textContent = "yazi";
+  tempOlustur.textContent = yazi;
 
   headerOlustur.appendChild(dateOlustur);
   headerOlustur.appendChild(baslikOlustur);
